@@ -1,0 +1,1544 @@
+{
+  "settings": {
+    "model_id": "real-time-accident-detection/1",
+    "api_url": "https://serverless.roboflow.com",
+    "sample_fps": 4.0,
+    "threshold": 0.5,
+    "analysis_version": 1
+  },
+  "ready": 50,
+  "missing": [],
+  "prediction_labels": {
+    "car": 10549,
+    "person": 1187,
+    "car_car_accident": 389,
+    "bike": 154,
+    "car_bike_accident": 9,
+    "car_object_accident": 25,
+    "bike_person_accident": 2,
+    "bike_bike_accident": 2,
+    "car_person_accident": 1
+  },
+  "videos": [
+    {
+      "filename": "v1.mov",
+      "sha256": "d6039d37f45d16da79b3b08227231670c278fd52db6c8d532393272e02577309",
+      "frames": 93,
+      "events": [
+        {
+          "id": "21bad562-415a-43e8-bc7d-9d91af5cd8d0",
+          "timestamp": 7.054921540656205,
+          "last_seen": 8.062767475035663,
+          "type": "vehicle_vehicle",
+          "title": "Va chạm giữa các ô tô",
+          "confidence": 0.5970885157585144,
+          "labels": [
+            "car_car_accident"
+          ]
+        },
+        {
+          "id": "efaef50d-0a4b-4ab1-b92c-6fe228815b6e",
+          "timestamp": 16.881419400855922,
+          "last_seen": 23.180456490727533,
+          "type": "vehicle_vehicle",
+          "title": "Va chạm giữa các ô tô",
+          "confidence": 0.7234203815460205,
+          "labels": [
+            "car_car_accident"
+          ]
+        }
+      ],
+      "cached_at": "2026-11-14T16:43:59.996686+00:00",
+      "peak_confidence_by_type": {
+        "vehicle_vehicle": 0.7234203815460205
+      },
+      "ambiguous_frames": 0,
+      "accident_frames_by_threshold": {
+        "0.3": 26,
+        "0.5": 16,
+        "0.7": 1,
+        "0.9": 0
+      }
+    },
+    {
+      "filename": "v10.mov",
+      "sha256": "53ca3e9c4952b703b549fb2a2935d1908430a92d87e0f441a69089e43b447363",
+      "frames": 48,
+      "events": [
+        {
+          "id": "63071bca-f1c7-45c2-9d11-a25ab8ebb77b",
+          "timestamp": 2.8401639344262297,
+          "last_seen": 9.55327868852459,
+          "type": "vehicle_vehicle",
+          "title": "Va chạm giữa các ô tô",
+          "confidence": 0.8987600803375244,
+          "labels": [
+            "car_car_accident"
+          ]
+        }
+      ],
+      "cached_at": "2026-11-14T16:44:39.166356+00:00",
+      "peak_confidence_by_type": {
+        "vehicle_vehicle": 0.8987600803375244
+      },
+      "ambiguous_frames": 0,
+      "accident_frames_by_threshold": {
+        "0.3": 10,
+        "0.5": 9,
+        "0.7": 8,
+        "0.9": 0
+      }
+    },
+    {
+      "filename": "v11.mov",
+      "sha256": "00710482cb070b0a09521e1af982ff044004a1217073d297bbe6ea3b27d99d8d",
+      "frames": 61,
+      "events": [
+        {
+          "id": "140e58b2-d9ef-4245-8d55-b37d2b769e07",
+          "timestamp": 5.118406889128095,
+          "last_seen": 6.398008611410118,
+          "type": "vehicle_vehicle",
+          "title": "Va chạm giữa các ô tô",
+          "confidence": 0.8921002745628357,
+          "labels": [
+            "car_car_accident"
+          ]
+        }
+      ],
+      "cached_at": "2026-11-14T16:45:30.048742+00:00",
+      "peak_confidence_by_type": {
+        "vehicle_vehicle": 0.8921002745628357
+      },
+      "ambiguous_frames": 0,
+      "accident_frames_by_threshold": {
+        "0.3": 7,
+        "0.5": 6,
+        "0.7": 6,
+        "0.9": 0
+      }
+    },
+    {
+      "filename": "v12.mov",
+      "sha256": "92a752db8a1befd0608204e6105617b6ff240cb12733f6711a5b3de1c9a2730c",
+      "frames": 35,
+      "events": [
+        {
+          "id": "39f5c29e-0ccb-41ee-9f47-4307039be3cb",
+          "timestamp": 3.0115606936416186,
+          "last_seen": 4.015414258188825,
+          "type": "vehicle_vehicle",
+          "title": "Va chạm giữa các ô tô",
+          "confidence": 0.8266675472259521,
+          "labels": [
+            "car_car_accident"
+          ]
+        }
+      ],
+      "cached_at": "2026-11-14T16:45:58.700097+00:00",
+      "peak_confidence_by_type": {
+        "vehicle_vehicle": 0.8266675472259521
+      },
+      "ambiguous_frames": 0,
+      "accident_frames_by_threshold": {
+        "0.3": 5,
+        "0.5": 3,
+        "0.7": 3,
+        "0.9": 0
+      }
+    },
+    {
+      "filename": "v13.mov",
+      "sha256": "520395710e19e98d2aa924eaa4a69c5f3e40662a4f5feb6fd85605889fe70e9d",
+      "frames": 100,
+      "events": [
+        {
+          "id": "755681c7-0124-4d16-a206-6063e3d03420",
+          "timestamp": 4.7784620505992015,
+          "last_seen": 14.58688415446072,
+          "type": "vehicle_vehicle",
+          "title": "Va chạm giữa các ô tô",
+          "confidence": 0.8657691478729248,
+          "labels": [
+            "car_car_accident"
+          ]
+        }
+      ],
+      "cached_at": "2026-11-14T16:47:18.827634+00:00",
+      "peak_confidence_by_type": {
+        "vehicle_vehicle": 0.8657691478729248,
+        "motorcycle": 0.45801663398742676
+      },
+      "ambiguous_frames": 0,
+      "accident_frames_by_threshold": {
+        "0.3": 33,
+        "0.5": 26,
+        "0.7": 11,
+        "0.9": 0
+      }
+    },
+    {
+      "filename": "v14.mov",
+      "sha256": "9be2707843719a662050edd40519e37e35946ac0ad6e7e8d01f9bc4dbaaf2d12",
+      "frames": 29,
+      "events": [],
+      "cached_at": "2026-11-14T16:47:41.769061+00:00",
+      "peak_confidence_by_type": {},
+      "ambiguous_frames": 0,
+      "accident_frames_by_threshold": {
+        "0.3": 0,
+        "0.5": 0,
+        "0.7": 0,
+        "0.9": 0
+      }
+    },
+    {
+      "filename": "v15.mov",
+      "sha256": "efa5fe7cb79cd78aa91539e4a6b3d2df54e79721e2b68babc08118101599b519",
+      "frames": 53,
+      "events": [],
+      "cached_at": "2026-11-14T16:48:20.851084+00:00",
+      "peak_confidence_by_type": {},
+      "ambiguous_frames": 0,
+      "accident_frames_by_threshold": {
+        "0.3": 0,
+        "0.5": 0,
+        "0.7": 0,
+        "0.9": 0
+      }
+    },
+    {
+      "filename": "v16.mov",
+      "sha256": "d814b9c6f354bbab1da6d6d4b52728496561d8b8184f81eda1604d3b87a05bdd",
+      "frames": 70,
+      "events": [
+        {
+          "id": "bc31d685-3985-469a-8a6d-a48deacd11fe",
+          "timestamp": 1.0177570093457944,
+          "last_seen": 3.3077102803738314,
+          "type": "vehicle_vehicle",
+          "title": "Va chạm giữa các ô tô",
+          "confidence": 0.9220103621482849,
+          "labels": [
+            "car_car_accident"
+          ]
+        },
+        {
+          "id": "a333b759-9ca9-4d69-a143-a0cdfa1c10cc",
+          "timestamp": 9.414252336448598,
+          "last_seen": 11.704205607476634,
+          "type": "vehicle_vehicle",
+          "title": "Va chạm giữa các ô tô",
+          "confidence": 0.919022262096405,
+          "labels": [
+            "car_car_accident"
+          ]
+        }
+      ],
+      "cached_at": "2026-11-14T16:49:13.197882+00:00",
+      "peak_confidence_by_type": {
+        "vehicle_vehicle": 0.9220103621482849
+      },
+      "ambiguous_frames": 0,
+      "accident_frames_by_threshold": {
+        "0.3": 21,
+        "0.5": 18,
+        "0.7": 15,
+        "0.9": 8
+      }
+    },
+    {
+      "filename": "v18.mov",
+      "sha256": "b226e327dca4e05a3f6b3555668ef663ac181344b4999b2e990feb3b6f64e226",
+      "frames": 26,
+      "events": [
+        {
+          "id": "e7082838-b0dd-46e8-b95c-6c4474c4ee00",
+          "timestamp": 3.815954773869347,
+          "last_seen": 5.0879396984924625,
+          "type": "single_vehicle",
+          "title": "Xe va chạm với vật thể",
+          "confidence": 0.8970321416854858,
+          "labels": [
+            "car_object_accident"
+          ]
+        }
+      ],
+      "cached_at": "2026-11-14T16:49:31.781197+00:00",
+      "peak_confidence_by_type": {
+        "single_vehicle": 0.8970321416854858
+      },
+      "ambiguous_frames": 0,
+      "accident_frames_by_threshold": {
+        "0.3": 6,
+        "0.5": 6,
+        "0.7": 5,
+        "0.9": 0
+      }
+    },
+    {
+      "filename": "v19.mov",
+      "sha256": "fdcf238cfa0d5d057517975bd95b26fe0b9ec45de4b192a4a9b22cc2acd919a7",
+      "frames": 17,
+      "events": [],
+      "cached_at": "2026-11-14T16:49:47.516755+00:00",
+      "peak_confidence_by_type": {},
+      "ambiguous_frames": 0,
+      "accident_frames_by_threshold": {
+        "0.3": 0,
+        "0.5": 0,
+        "0.7": 0,
+        "0.9": 0
+      }
+    },
+    {
+      "filename": "v2.mov",
+      "sha256": "228118046b0c702b5ecc31978737c96b76515d34b615743b5bac57bb05edd92d",
+      "frames": 18,
+      "events": [
+        {
+          "id": "289212bf-da67-4448-8ceb-8f2719ed995b",
+          "timestamp": 2.204198473282443,
+          "last_seen": 2.204198473282443,
+          "type": "vehicle_vehicle",
+          "title": "Va chạm giữa các ô tô",
+          "confidence": 0.9445775151252747,
+          "labels": [
+            "car_car_accident"
+          ]
+        },
+        {
+          "id": "cb8a8322-6eaf-4a0e-96f7-a59c30fbd868",
+          "timestamp": 3.4287531806615776,
+          "last_seen": 3.4287531806615776,
+          "type": "single_vehicle",
+          "title": "Xe va chạm với vật thể",
+          "confidence": 0.6598821878433228,
+          "labels": [
+            "car_object_accident"
+          ]
+        }
+      ],
+      "cached_at": "2026-11-14T16:50:00.473512+00:00",
+      "peak_confidence_by_type": {
+        "vehicle_vehicle": 0.9445775151252747,
+        "single_vehicle": 0.6598821878433228
+      },
+      "ambiguous_frames": 0,
+      "accident_frames_by_threshold": {
+        "0.3": 2,
+        "0.5": 2,
+        "0.7": 1,
+        "0.9": 1
+      }
+    },
+    {
+      "filename": "v20.mov",
+      "sha256": "5be3d1d0dab4b8c3ab457af63a04fc0ad6d3b49f068f1fda70c72b83896d890e",
+      "frames": 57,
+      "events": [
+        {
+          "id": "cbd1faaa-0759-43be-aceb-34318ac9314e",
+          "timestamp": 5.570722433460076,
+          "last_seen": 7.99277566539924,
+          "type": "vehicle_vehicle",
+          "title": "Va chạm giữa các ô tô",
+          "confidence": 0.8939042687416077,
+          "labels": [
+            "car_car_accident"
+          ]
+        },
+        {
+          "id": "3bf1fe66-ee0b-42b4-b944-dfb38f7fabcf",
+          "timestamp": 7.0239543726235745,
+          "last_seen": 7.266159695817491,
+          "type": "single_vehicle",
+          "title": "Xe va chạm với vật thể",
+          "confidence": 0.7099351286888123,
+          "labels": [
+            "car_object_accident"
+          ]
+        }
+      ],
+      "cached_at": "2026-11-14T16:50:55.347695+00:00",
+      "peak_confidence_by_type": {
+        "vehicle_vehicle": 0.8939042687416077,
+        "single_vehicle": 0.7099351286888123
+      },
+      "ambiguous_frames": 2,
+      "accident_frames_by_threshold": {
+        "0.3": 10,
+        "0.5": 10,
+        "0.7": 7,
+        "0.9": 0
+      }
+    },
+    {
+      "filename": "v21.mov",
+      "sha256": "2770ad293de7ceba57160623cf81670c67da22eb496ae0eb67ef3c86ad41d93c",
+      "frames": 70,
+      "events": [
+        {
+          "id": "c40f42de-2502-454f-b83e-05e48b69fc7c",
+          "timestamp": 2.011461318051576,
+          "last_seen": 3.268624641833811,
+          "type": "vehicle_vehicle",
+          "title": "Va chạm giữa các ô tô",
+          "confidence": 0.9357498288154602,
+          "labels": [
+            "car_car_accident"
+          ]
+        },
+        {
+          "id": "dac723a5-c849-4a67-b25f-4326bb6d0dbb",
+          "timestamp": 11.565902578796562,
+          "last_seen": 12.320200573065902,
+          "type": "vehicle_vehicle",
+          "title": "Va chạm giữa các ô tô",
+          "confidence": 0.9316626787185669,
+          "labels": [
+            "car_car_accident"
+          ]
+        }
+      ],
+      "cached_at": "2026-11-14T16:51:46.579895+00:00",
+      "peak_confidence_by_type": {
+        "vehicle_vehicle": 0.9357498288154602
+      },
+      "ambiguous_frames": 0,
+      "accident_frames_by_threshold": {
+        "0.3": 10,
+        "0.5": 10,
+        "0.7": 9,
+        "0.9": 5
+      }
+    },
+    {
+      "filename": "v22.mov",
+      "sha256": "f98ec8d36c91b0702e908a1f351aa744e6d9a87fd20d3543796272b642e757e8",
+      "frames": 29,
+      "events": [
+        {
+          "id": "742293ab-10a3-4c34-a84b-91cef04d100b",
+          "timestamp": 3.0753424657534247,
+          "last_seen": 4.356735159817352,
+          "type": "vehicle_vehicle",
+          "title": "Va chạm giữa các ô tô",
+          "confidence": 0.8360641598701477,
+          "labels": [
+            "car_car_accident"
+          ]
+        }
+      ],
+      "cached_at": "2026-11-14T16:52:07.658506+00:00",
+      "peak_confidence_by_type": {
+        "vehicle_vehicle": 0.8360641598701477
+      },
+      "ambiguous_frames": 0,
+      "accident_frames_by_threshold": {
+        "0.3": 4,
+        "0.5": 4,
+        "0.7": 3,
+        "0.9": 0
+      }
+    },
+    {
+      "filename": "v23.mov",
+      "sha256": "8cd7a97e8d0af2829e9be082213e73f02abc508f0bab7231259b61bdd7ea9cb8",
+      "frames": 38,
+      "events": [
+        {
+          "id": "9bbc4a0a-2071-403a-a2d1-d5668160a694",
+          "timestamp": 4.338695652173913,
+          "last_seen": 5.359565217391304,
+          "type": "vehicle_vehicle",
+          "title": "Va chạm giữa các ô tô",
+          "confidence": 0.9092416763305664,
+          "labels": [
+            "car_car_accident"
+          ]
+        }
+      ],
+      "cached_at": "2026-11-14T16:52:34.883809+00:00",
+      "peak_confidence_by_type": {
+        "vehicle_vehicle": 0.9092416763305664
+      },
+      "ambiguous_frames": 0,
+      "accident_frames_by_threshold": {
+        "0.3": 5,
+        "0.5": 5,
+        "0.7": 5,
+        "0.9": 2
+      }
+    },
+    {
+      "filename": "v24.mov",
+      "sha256": "5e40790863e309710976e3dcc00f046e44b5d164cd94325bece64c9cf9862633",
+      "frames": 34,
+      "events": [
+        {
+          "id": "9941e417-541f-45ed-a4f0-80fda8e629c1",
+          "timestamp": 3.3326810176125243,
+          "last_seen": 3.8454011741682974,
+          "type": "vehicle_vehicle",
+          "title": "Va chạm giữa các ô tô",
+          "confidence": 0.8596624135971069,
+          "labels": [
+            "car_car_accident"
+          ]
+        }
+      ],
+      "cached_at": "2026-11-14T16:53:00.484595+00:00",
+      "peak_confidence_by_type": {
+        "vehicle_vehicle": 0.8596624135971069
+      },
+      "ambiguous_frames": 0,
+      "accident_frames_by_threshold": {
+        "0.3": 3,
+        "0.5": 3,
+        "0.7": 3,
+        "0.9": 0
+      }
+    },
+    {
+      "filename": "v25.mov",
+      "sha256": "f0e17559242f067cb0ba796af5471dca95ef7cbfd8d0a6f8cde21f164a960669",
+      "frames": 60,
+      "events": [
+        {
+          "id": "3625a534-0d85-48bf-a22a-cdf563eca973",
+          "timestamp": 8.538073908174692,
+          "last_seen": 8.538073908174692,
+          "type": "single_vehicle",
+          "title": "Xe va chạm với vật thể",
+          "confidence": 0.6125699877738953,
+          "labels": [
+            "car_object_accident"
+          ]
+        }
+      ],
+      "cached_at": "2026-11-14T16:53:46.485979+00:00",
+      "peak_confidence_by_type": {
+        "single_vehicle": 0.6125699877738953
+      },
+      "ambiguous_frames": 0,
+      "accident_frames_by_threshold": {
+        "0.3": 1,
+        "0.5": 1,
+        "0.7": 0,
+        "0.9": 0
+      }
+    },
+    {
+      "filename": "v26.mov",
+      "sha256": "33ef1975cbdee4388f90632b10b165b2a7c4e4db4d2d118208fb713a94d90fc7",
+      "frames": 43,
+      "events": [
+        {
+          "id": "a463bc5f-af39-4f64-a876-0d8f31abda76",
+          "timestamp": 6.165390505359878,
+          "last_seen": 6.936064318529862,
+          "type": "vehicle_vehicle",
+          "title": "Va chạm giữa các ô tô",
+          "confidence": 0.9016469120979309,
+          "labels": [
+            "car_car_accident"
+          ]
+        }
+      ],
+      "cached_at": "2026-11-14T16:54:26.655213+00:00",
+      "peak_confidence_by_type": {
+        "vehicle_vehicle": 0.9016469120979309
+      },
+      "ambiguous_frames": 0,
+      "accident_frames_by_threshold": {
+        "0.3": 4,
+        "0.5": 4,
+        "0.7": 4,
+        "0.9": 2
+      }
+    },
+    {
+      "filename": "v27.mov",
+      "sha256": "d87ee8424362ed11e449248d4e53918dbabd7d59ffd78b05d6c99c5bc0282d8e",
+      "frames": 41,
+      "events": [
+        {
+          "id": "90f0d1cc-3146-4666-8df2-e242ccdcf7c7",
+          "timestamp": 4.378571428571429,
+          "last_seen": 4.378571428571429,
+          "type": "single_vehicle",
+          "title": "Xe va chạm với vật thể",
+          "confidence": 0.5238911509513855,
+          "labels": [
+            "car_object_accident"
+          ]
+        },
+        {
+          "id": "b3e8c549-d54e-4467-91dd-26f0bf6af2f2",
+          "timestamp": 4.621825396825397,
+          "last_seen": 4.621825396825397,
+          "type": "vehicle_vehicle",
+          "title": "Va chạm giữa các ô tô",
+          "confidence": 0.6430994868278503,
+          "labels": [
+            "car_car_accident"
+          ]
+        }
+      ],
+      "cached_at": "2026-11-14T16:55:00.093889+00:00",
+      "peak_confidence_by_type": {
+        "single_vehicle": 0.5238911509513855,
+        "vehicle_vehicle": 0.6430994868278503
+      },
+      "ambiguous_frames": 0,
+      "accident_frames_by_threshold": {
+        "0.3": 2,
+        "0.5": 2,
+        "0.7": 0,
+        "0.9": 0
+      }
+    },
+    {
+      "filename": "v28.mov",
+      "sha256": "d67a5ec231ffd2176c5a44d55d3706dc46be82cb511d6bd2faae8c9e6b8bdb6d",
+      "frames": 25,
+      "events": [
+        {
+          "id": "141cf1c5-436d-49a8-a90d-0c3be94553d6",
+          "timestamp": 1.5469973890339426,
+          "last_seen": 2.0626631853785904,
+          "type": "vehicle_vehicle",
+          "title": "Va chạm giữa các ô tô",
+          "confidence": 0.938737154006958,
+          "labels": [
+            "car_car_accident"
+          ]
+        }
+      ],
+      "cached_at": "2026-11-14T16:55:23.085522+00:00",
+      "peak_confidence_by_type": {
+        "vehicle_vehicle": 0.938737154006958
+      },
+      "ambiguous_frames": 0,
+      "accident_frames_by_threshold": {
+        "0.3": 3,
+        "0.5": 3,
+        "0.7": 3,
+        "0.9": 2
+      }
+    },
+    {
+      "filename": "v29.mov",
+      "sha256": "298053c289d075e3fe6071dc3f76428e9857f340a7a6128c95364ec71b5ec23f",
+      "frames": 55,
+      "events": [
+        {
+          "id": "6de8da46-a1aa-4a21-b011-39d5f1ef29bc",
+          "timestamp": 8.192539109506619,
+          "last_seen": 8.192539109506619,
+          "type": "single_vehicle",
+          "title": "Xe va chạm với vật thể",
+          "confidence": 0.5033139586448669,
+          "labels": [
+            "car_object_accident"
+          ]
+        },
+        {
+          "id": "a2461eab-979f-4abc-b353-c41f977cea05",
+          "timestamp": 13.568892900120337,
+          "last_seen": 13.824909747292418,
+          "type": "vehicle_vehicle",
+          "title": "Va chạm giữa các ô tô",
+          "confidence": 0.7015635371208191,
+          "labels": [
+            "car_car_accident"
+          ]
+        }
+      ],
+      "cached_at": "2026-11-14T18:03:58.578732+00:00",
+      "peak_confidence_by_type": {
+        "single_vehicle": 0.5033139586448669,
+        "vehicle_vehicle": 0.7015635371208191
+      },
+      "ambiguous_frames": 0,
+      "accident_frames_by_threshold": {
+        "0.3": 6,
+        "0.5": 3,
+        "0.7": 1,
+        "0.9": 0
+      }
+    },
+    {
+      "filename": "v3.mov",
+      "sha256": "b0de5ba92ccb8d7b53b781042dd74038cee2d4a38fa8d41a6cdedb0a59bc6e38",
+      "frames": 57,
+      "events": [
+        {
+          "id": "1a53a836-69ea-49bb-b172-f9e3dd94ea31",
+          "timestamp": 1.0,
+          "last_seen": 1.0,
+          "type": "pedestrian",
+          "title": "Va chạm liên quan đến người đi bộ",
+          "confidence": 0.5258111357688904,
+          "labels": [
+            "bike_person_accident"
+          ]
+        },
+        {
+          "id": "a0744883-b689-44ea-8fd7-ea82487202c5",
+          "timestamp": 5.75,
+          "last_seen": 14.0,
+          "type": "vehicle_vehicle",
+          "title": "Va chạm giữa các ô tô",
+          "confidence": 0.8867486715316772,
+          "labels": [
+            "car_car_accident"
+          ]
+        }
+      ],
+      "cached_at": "2026-11-14T18:04:49.738989+00:00",
+      "peak_confidence_by_type": {
+        "pedestrian": 0.5258111357688904,
+        "vehicle_vehicle": 0.8867486715316772
+      },
+      "ambiguous_frames": 0,
+      "accident_frames_by_threshold": {
+        "0.3": 28,
+        "0.5": 28,
+        "0.7": 4,
+        "0.9": 0
+      }
+    },
+    {
+      "filename": "v30.mov",
+      "sha256": "96d59483191b511476b9ceb1860f931e12ef7f594fe9889c73090ae967de2d26",
+      "frames": 94,
+      "events": [
+        {
+          "id": "e5fcab6f-c0fc-4525-a8d9-4a7bc6713751",
+          "timestamp": 3.810230446927374,
+          "last_seen": 3.810230446927374,
+          "type": "vehicle_vehicle",
+          "title": "Va chạm giữa các ô tô",
+          "confidence": 0.5293553471565247,
+          "labels": [
+            "car_car_accident"
+          ]
+        }
+      ],
+      "cached_at": "2026-11-14T18:06:07.441264+00:00",
+      "peak_confidence_by_type": {
+        "vehicle_vehicle": 0.5293553471565247
+      },
+      "ambiguous_frames": 0,
+      "accident_frames_by_threshold": {
+        "0.3": 7,
+        "0.5": 1,
+        "0.7": 0,
+        "0.9": 0
+      }
+    },
+    {
+      "filename": "v31.mov",
+      "sha256": "dfd349acd9d959c2a5c84248978e79fc2b0138774c66703fc52b4246391573bd",
+      "frames": 29,
+      "events": [],
+      "cached_at": "2026-11-14T18:06:30.822140+00:00",
+      "peak_confidence_by_type": {},
+      "ambiguous_frames": 0,
+      "accident_frames_by_threshold": {
+        "0.3": 0,
+        "0.5": 0,
+        "0.7": 0,
+        "0.9": 0
+      }
+    },
+    {
+      "filename": "v32.mov",
+      "sha256": "a3cdf7b3ab00f295d04fc5b96d8be4e7e0861a34f667b1bc215533ef2ba279f0",
+      "frames": 54,
+      "events": [
+        {
+          "id": "2092bb7d-94f6-4e6c-9290-47cdbb5c12ef",
+          "timestamp": 4.079404466501241,
+          "last_seen": 13.51302729528536,
+          "type": "vehicle_vehicle",
+          "title": "Va chạm giữa các ô tô",
+          "confidence": 0.898856520652771,
+          "labels": [
+            "car_car_accident"
+          ]
+        }
+      ],
+      "cached_at": "2026-11-14T18:07:06.054371+00:00",
+      "peak_confidence_by_type": {
+        "vehicle_vehicle": 0.898856520652771
+      },
+      "ambiguous_frames": 0,
+      "accident_frames_by_threshold": {
+        "0.3": 33,
+        "0.5": 33,
+        "0.7": 31,
+        "0.9": 0
+      }
+    },
+    {
+      "filename": "v33.mov",
+      "sha256": "5356bfd5908a3d6f13d205555c347f53ff41afdf36e06d5d00989f5db3d2c53f",
+      "frames": 17,
+      "events": [
+        {
+          "id": "087fd31f-5bbe-463d-8af2-0254d4a23116",
+          "timestamp": 1.7703488372093024,
+          "last_seen": 4.046511627906977,
+          "type": "vehicle_vehicle",
+          "title": "Va chạm giữa các ô tô",
+          "confidence": 0.9035028219223022,
+          "labels": [
+            "car_car_accident"
+          ]
+        }
+      ],
+      "cached_at": "2026-11-14T18:07:17.968457+00:00",
+      "peak_confidence_by_type": {
+        "vehicle_vehicle": 0.9035028219223022
+      },
+      "ambiguous_frames": 0,
+      "accident_frames_by_threshold": {
+        "0.3": 7,
+        "0.5": 7,
+        "0.7": 4,
+        "0.9": 1
+      }
+    },
+    {
+      "filename": "v34.mov",
+      "sha256": "8de37088a3fe57b0989a8bf25494cc03c1e8e8c209e051c382a1c5c994762325",
+      "frames": 17,
+      "events": [
+        {
+          "id": "f7b74c4a-58e1-45ae-80a8-e2f901a23155",
+          "timestamp": 0.7560728744939271,
+          "last_seen": 3.0242914979757085,
+          "type": "vehicle_vehicle",
+          "title": "Va chạm giữa các ô tô",
+          "confidence": 0.8766679167747498,
+          "labels": [
+            "car_car_accident"
+          ]
+        }
+      ],
+      "cached_at": "2026-11-14T18:07:30.189177+00:00",
+      "peak_confidence_by_type": {
+        "vehicle_vehicle": 0.8766679167747498
+      },
+      "ambiguous_frames": 0,
+      "accident_frames_by_threshold": {
+        "0.3": 7,
+        "0.5": 6,
+        "0.7": 4,
+        "0.9": 0
+      }
+    },
+    {
+      "filename": "v35.mov",
+      "sha256": "b27b678214fd8933d908f4b76c72c1d8fbebcb1a12b0146164054e083e27a048",
+      "frames": 12,
+      "events": [
+        {
+          "id": "8149a7e1-e82b-43bf-8cc6-6b094033b3dd",
+          "timestamp": 1.005813953488372,
+          "last_seen": 1.257267441860465,
+          "type": "vehicle_vehicle",
+          "title": "Va chạm giữa các ô tô",
+          "confidence": 0.821900486946106,
+          "labels": [
+            "car_car_accident"
+          ]
+        }
+      ],
+      "cached_at": "2026-11-14T18:07:37.876010+00:00",
+      "peak_confidence_by_type": {
+        "vehicle_vehicle": 0.821900486946106
+      },
+      "ambiguous_frames": 0,
+      "accident_frames_by_threshold": {
+        "0.3": 5,
+        "0.5": 2,
+        "0.7": 2,
+        "0.9": 0
+      }
+    },
+    {
+      "filename": "v36.mov",
+      "sha256": "c6b28f41744e185c8df793082c6b35798f04966ecf7006556a8d760b69af9953",
+      "frames": 24,
+      "events": [
+        {
+          "id": "f79b52a8-db8f-4e93-befb-5e1220bf6e74",
+          "timestamp": 2.6755555555555555,
+          "last_seen": 3.8917171717171715,
+          "type": "vehicle_vehicle",
+          "title": "Va chạm giữa các ô tô",
+          "confidence": 0.8100340366363525,
+          "labels": [
+            "car_car_accident"
+          ]
+        }
+      ],
+      "cached_at": "2026-11-14T18:07:54.794951+00:00",
+      "peak_confidence_by_type": {
+        "vehicle_vehicle": 0.8100340366363525
+      },
+      "ambiguous_frames": 0,
+      "accident_frames_by_threshold": {
+        "0.3": 3,
+        "0.5": 3,
+        "0.7": 2,
+        "0.9": 0
+      }
+    },
+    {
+      "filename": "v37.mov",
+      "sha256": "91797acafd80f303d9107fc242ac2a22d90f779ce2ea9740c95c5d04b59fb2ec",
+      "frames": 21,
+      "events": [
+        {
+          "id": "e2dbaa6d-616d-4455-8775-b5f7263fa07a",
+          "timestamp": 3.458823529411765,
+          "last_seen": 4.9411764705882355,
+          "type": "vehicle_vehicle",
+          "title": "Va chạm giữa các ô tô",
+          "confidence": 0.8833370804786682,
+          "labels": [
+            "car_car_accident"
+          ]
+        }
+      ],
+      "cached_at": "2026-11-14T18:08:14.554775+00:00",
+      "peak_confidence_by_type": {
+        "vehicle_vehicle": 0.8833370804786682
+      },
+      "ambiguous_frames": 0,
+      "accident_frames_by_threshold": {
+        "0.3": 3,
+        "0.5": 3,
+        "0.7": 3,
+        "0.9": 0
+      }
+    },
+    {
+      "filename": "v38.mov",
+      "sha256": "0612158cf755108d38095794379350fc99955cee96d87db57dea31e74a95b5a9",
+      "frames": 22,
+      "events": [
+        {
+          "id": "885fa015-3434-4e93-aa9d-33f0446287ea",
+          "timestamp": 2.7322580645161287,
+          "last_seen": 5.216129032258064,
+          "type": "vehicle_vehicle",
+          "title": "Va chạm giữa các ô tô",
+          "confidence": 0.6737444996833801,
+          "labels": [
+            "car_car_accident"
+          ]
+        }
+      ],
+      "cached_at": "2026-11-14T18:08:32.873182+00:00",
+      "peak_confidence_by_type": {
+        "vehicle_vehicle": 0.6737444996833801
+      },
+      "ambiguous_frames": 0,
+      "accident_frames_by_threshold": {
+        "0.3": 6,
+        "0.5": 4,
+        "0.7": 0,
+        "0.9": 0
+      }
+    },
+    {
+      "filename": "v39.mov",
+      "sha256": "f2083155036f34bbf9af8a910014e444ff812d14515f20563ea09e1c724c1c1f",
+      "frames": 18,
+      "events": [
+        {
+          "id": "47315b1c-af15-45f0-9143-d0391249c7a1",
+          "timestamp": 3.33125,
+          "last_seen": 3.33125,
+          "type": "vehicle_vehicle",
+          "title": "Va chạm giữa các ô tô",
+          "confidence": 0.8372451663017273,
+          "labels": [
+            "car_car_accident"
+          ]
+        }
+      ],
+      "cached_at": "2026-11-14T18:08:46.216719+00:00",
+      "peak_confidence_by_type": {
+        "vehicle_vehicle": 0.8372451663017273
+      },
+      "ambiguous_frames": 0,
+      "accident_frames_by_threshold": {
+        "0.3": 1,
+        "0.5": 1,
+        "0.7": 1,
+        "0.9": 0
+      }
+    },
+    {
+      "filename": "v4.mov",
+      "sha256": "14f9243b3bfb9a318acf32dc9458c651c51942b1fee42bef7b0326b407179f48",
+      "frames": 36,
+      "events": [
+        {
+          "id": "706b69d1-10f9-401d-81f9-79be04817d4b",
+          "timestamp": 2.0,
+          "last_seen": 2.5,
+          "type": "vehicle_vehicle",
+          "title": "Va chạm giữa các ô tô",
+          "confidence": 0.9015346765518188,
+          "labels": [
+            "car_car_accident"
+          ]
+        }
+      ],
+      "cached_at": "2026-11-14T18:09:17.272172+00:00",
+      "peak_confidence_by_type": {
+        "vehicle_vehicle": 0.9015346765518188
+      },
+      "ambiguous_frames": 0,
+      "accident_frames_by_threshold": {
+        "0.3": 3,
+        "0.5": 3,
+        "0.7": 3,
+        "0.9": 1
+      }
+    },
+    {
+      "filename": "v40.mov",
+      "sha256": "cf0a6d8d9d58e458674adb15e2a085a35584007f5276d8934c8c60fbc366fa3d",
+      "frames": 22,
+      "events": [
+        {
+          "id": "8b763612-ea84-4062-83f7-ec97a50d5fab",
+          "timestamp": 3.8632930513595167,
+          "last_seen": 5.408610271903323,
+          "type": "vehicle_vehicle",
+          "title": "Va chạm giữa các ô tô",
+          "confidence": 0.890867292881012,
+          "labels": [
+            "car_car_accident"
+          ]
+        }
+      ],
+      "cached_at": "2026-11-14T18:09:34.134197+00:00",
+      "peak_confidence_by_type": {
+        "vehicle_vehicle": 0.890867292881012
+      },
+      "ambiguous_frames": 0,
+      "accident_frames_by_threshold": {
+        "0.3": 6,
+        "0.5": 6,
+        "0.7": 2,
+        "0.9": 0
+      }
+    },
+    {
+      "filename": "v41.mov",
+      "sha256": "b4208265823d54d750c8856fdb3c655b7ce517f002022005971de1f33472b0b3",
+      "frames": 142,
+      "events": [
+        {
+          "id": "f7bbf925-6829-4651-bbcc-e10b5542c4ff",
+          "timestamp": 12.313173933427098,
+          "last_seen": 12.313173933427098,
+          "type": "vehicle_vehicle",
+          "title": "Va chạm giữa các ô tô",
+          "confidence": 0.6928471922874451,
+          "labels": [
+            "car_car_accident"
+          ]
+        },
+        {
+          "id": "8d56147b-2472-4b09-aa64-663ed7d3f774",
+          "timestamp": 34.42662916080637,
+          "last_seen": 35.43178621659634,
+          "type": "vehicle_vehicle",
+          "title": "Va chạm giữa các ô tô",
+          "confidence": 0.8376849293708801,
+          "labels": [
+            "car_car_accident"
+          ]
+        }
+      ],
+      "cached_at": "2026-11-14T18:11:31.672939+00:00",
+      "peak_confidence_by_type": {
+        "vehicle_vehicle": 0.8376849293708801
+      },
+      "ambiguous_frames": 0,
+      "accident_frames_by_threshold": {
+        "0.3": 7,
+        "0.5": 6,
+        "0.7": 4,
+        "0.9": 0
+      }
+    },
+    {
+      "filename": "v42.mov",
+      "sha256": "4262dd22627a9428f9af572df6fb3ba5be240c9744ba68007e8a9c6597f4e000",
+      "frames": 27,
+      "events": [],
+      "cached_at": "2026-11-14T18:11:43.066686+00:00",
+      "peak_confidence_by_type": {
+        "motorcycle": 0.4832955002784729
+      },
+      "ambiguous_frames": 0,
+      "accident_frames_by_threshold": {
+        "0.3": 1,
+        "0.5": 0,
+        "0.7": 0,
+        "0.9": 0
+      }
+    },
+    {
+      "filename": "v43.mov",
+      "sha256": "5bfb34e21fdf2ca653ce837dbc6bcfce1b4b05f5709050a1606ef6624893355c",
+      "frames": 46,
+      "events": [
+        {
+          "id": "4abd0c16-21ee-42c2-be2c-70fba816f92d",
+          "timestamp": 6.138129496402877,
+          "last_seen": 7.672661870503597,
+          "type": "motorcycle",
+          "title": "Tai nạn liên quan đến xe máy",
+          "confidence": 0.9344488382339478,
+          "labels": [
+            "car_bike_accident"
+          ]
+        }
+      ],
+      "cached_at": "2026-11-14T18:12:29.436545+00:00",
+      "peak_confidence_by_type": {
+        "motorcycle": 0.9344488382339478
+      },
+      "ambiguous_frames": 0,
+      "accident_frames_by_threshold": {
+        "0.3": 7,
+        "0.5": 7,
+        "0.7": 7,
+        "0.9": 3
+      }
+    },
+    {
+      "filename": "v44.mov",
+      "sha256": "22df24514b073b4643bfb42a16ddce9fe94e002b9111292dfe4255a59c5e7fba",
+      "frames": 45,
+      "events": [],
+      "cached_at": "2026-11-14T18:13:07.861937+00:00",
+      "peak_confidence_by_type": {},
+      "ambiguous_frames": 0,
+      "accident_frames_by_threshold": {
+        "0.3": 0,
+        "0.5": 0,
+        "0.7": 0,
+        "0.9": 0
+      }
+    },
+    {
+      "filename": "v45.mov",
+      "sha256": "1d2f0bff2529efd569f3fc201c263d6a1023fc359ea14dfc7f77cc86e3705cae",
+      "frames": 52,
+      "events": [
+        {
+          "id": "30d3bf74-7b2a-46b8-99a2-1f8c6a22a118",
+          "timestamp": 6.778224007139669,
+          "last_seen": 8.23070058009817,
+          "type": "vehicle_vehicle",
+          "title": "Va chạm giữa các ô tô",
+          "confidence": 0.7096080183982849,
+          "labels": [
+            "car_car_accident"
+          ]
+        }
+      ],
+      "cached_at": "2026-11-14T18:13:50.361649+00:00",
+      "peak_confidence_by_type": {
+        "vehicle_vehicle": 0.7096080183982849
+      },
+      "ambiguous_frames": 0,
+      "accident_frames_by_threshold": {
+        "0.3": 3,
+        "0.5": 3,
+        "0.7": 1,
+        "0.9": 0
+      }
+    },
+    {
+      "filename": "v46.mov",
+      "sha256": "1d1022a2f1d5cdd7837517f9ad14fd4eae8f78b55dc3417ba2d564c436f9b925",
+      "frames": 27,
+      "events": [
+        {
+          "id": "479815fb-d7f6-40ba-b742-0f569dcb0f45",
+          "timestamp": 2.7770270270270268,
+          "last_seen": 2.7770270270270268,
+          "type": "vehicle_vehicle",
+          "title": "Va chạm giữa các ô tô",
+          "confidence": 0.6718644499778748,
+          "labels": [
+            "car_car_accident"
+          ]
+        }
+      ],
+      "cached_at": "2026-11-14T18:14:08.450868+00:00",
+      "peak_confidence_by_type": {
+        "vehicle_vehicle": 0.6718644499778748
+      },
+      "ambiguous_frames": 0,
+      "accident_frames_by_threshold": {
+        "0.3": 2,
+        "0.5": 1,
+        "0.7": 0,
+        "0.9": 0
+      }
+    },
+    {
+      "filename": "v47.mov",
+      "sha256": "6d9cd26f5e7ac40a77bd7fc94cd14c4c5d3f6b5a8b38390bf6e9c3fead70f7c6",
+      "frames": 36,
+      "events": [
+        {
+          "id": "02ff561f-d28f-4902-826a-0d8ff3f9ec6e",
+          "timestamp": 5.631433823529412,
+          "last_seen": 7.935202205882353,
+          "type": "vehicle_vehicle",
+          "title": "Va chạm giữa các ô tô",
+          "confidence": 0.8010472655296326,
+          "labels": [
+            "car_car_accident"
+          ]
+        }
+      ],
+      "cached_at": "2026-11-14T18:14:32.141102+00:00",
+      "peak_confidence_by_type": {
+        "vehicle_vehicle": 0.8010472655296326
+      },
+      "ambiguous_frames": 0,
+      "accident_frames_by_threshold": {
+        "0.3": 7,
+        "0.5": 4,
+        "0.7": 1,
+        "0.9": 0
+      }
+    },
+    {
+      "filename": "v48.mov",
+      "sha256": "5f50a30ee32072e1be95aa5a0cee0458f23a1173448a66fd2c1cceb15657e51a",
+      "frames": 49,
+      "events": [
+        {
+          "id": "f1df1f94-6dc0-471d-8a87-c9879e124825",
+          "timestamp": 0.2537414965986394,
+          "last_seen": 5.836054421768708,
+          "type": "vehicle_vehicle",
+          "title": "Va chạm giữa các ô tô",
+          "confidence": 0.8342908620834351,
+          "labels": [
+            "car_car_accident"
+          ]
+        },
+        {
+          "id": "5f75ac65-b87b-40d9-8986-e84ccddfa8e5",
+          "timestamp": 11.925850340136055,
+          "last_seen": 12.179591836734694,
+          "type": "vehicle_vehicle",
+          "title": "Va chạm giữa các ô tô",
+          "confidence": 0.6785085797309875,
+          "labels": [
+            "car_car_accident"
+          ]
+        }
+      ],
+      "cached_at": "2026-11-14T18:15:07.936048+00:00",
+      "peak_confidence_by_type": {
+        "vehicle_vehicle": 0.8342908620834351,
+        "pedestrian": 0.47832512855529785
+      },
+      "ambiguous_frames": 1,
+      "accident_frames_by_threshold": {
+        "0.3": 16,
+        "0.5": 15,
+        "0.7": 1,
+        "0.9": 0
+      }
+    },
+    {
+      "filename": "v49.mov",
+      "sha256": "46f1d234e25328d9b050ebb6850a930dc5a8d9cadb8ad409706711219361248a",
+      "frames": 46,
+      "events": [],
+      "cached_at": "2026-11-14T18:15:50.786650+00:00",
+      "peak_confidence_by_type": {
+        "motorcycle": 0.4512462019920349
+      },
+      "ambiguous_frames": 0,
+      "accident_frames_by_threshold": {
+        "0.3": 1,
+        "0.5": 0,
+        "0.7": 0,
+        "0.9": 0
+      }
+    },
+    {
+      "filename": "v5.mov",
+      "sha256": "d9f9d42eeba927152ef559878d718eb9bdd3fbc82d40043482c10713015a953f",
+      "frames": 45,
+      "events": [
+        {
+          "id": "d151b9b5-ba8e-4920-b629-c2c8da3705ac",
+          "timestamp": 4.064896755162242,
+          "last_seen": 4.318952802359882,
+          "type": "vehicle_vehicle",
+          "title": "Va chạm giữa các ô tô",
+          "confidence": 0.7732757329940796,
+          "labels": [
+            "car_car_accident"
+          ]
+        }
+      ],
+      "cached_at": "2026-11-14T18:16:26.455149+00:00",
+      "peak_confidence_by_type": {
+        "vehicle_vehicle": 0.7732757329940796
+      },
+      "ambiguous_frames": 0,
+      "accident_frames_by_threshold": {
+        "0.3": 2,
+        "0.5": 2,
+        "0.7": 1,
+        "0.9": 0
+      }
+    },
+    {
+      "filename": "v50.mov",
+      "sha256": "964183f79641e87ffdcb9c9db23b9ef46c734531ff687d3075a7199825e00aa0",
+      "frames": 64,
+      "events": [
+        {
+          "id": "7d7f38cd-3f51-443f-8a02-f71bbee5b3d2",
+          "timestamp": 0.5083594566353187,
+          "last_seen": 1.2708986415882968,
+          "type": "single_vehicle",
+          "title": "Xe va chạm với vật thể",
+          "confidence": 0.9355058670043945,
+          "labels": [
+            "car_object_accident"
+          ]
+        },
+        {
+          "id": "df67ce26-6171-40ad-9cc9-bbb33fb09fae",
+          "timestamp": 8.133751306165099,
+          "last_seen": 8.642110762800417,
+          "type": "single_vehicle",
+          "title": "Xe va chạm với vật thể",
+          "confidence": 0.9222818613052368,
+          "labels": [
+            "car_object_accident"
+          ]
+        },
+        {
+          "id": "ff49417b-2356-4a4e-a765-823be9d8370a",
+          "timestamp": 12.454806687565307,
+          "last_seen": 12.454806687565307,
+          "type": "single_vehicle",
+          "title": "Xe va chạm với vật thể",
+          "confidence": 0.6561908721923828,
+          "labels": [
+            "car_object_accident"
+          ]
+        }
+      ],
+      "cached_at": "2026-11-14T18:17:21.005402+00:00",
+      "peak_confidence_by_type": {
+        "single_vehicle": 0.9355058670043945
+      },
+      "ambiguous_frames": 0,
+      "accident_frames_by_threshold": {
+        "0.3": 10,
+        "0.5": 8,
+        "0.7": 7,
+        "0.9": 4
+      }
+    },
+    {
+      "filename": "v51.mov",
+      "sha256": "4e8a92c7a37eba00196f08a4521dc3e14d77198bcfbd485efdd814cef5dbfb0e",
+      "frames": 44,
+      "events": [
+        {
+          "id": "4a3c07b9-7c95-4063-aaac-13de3b83513f",
+          "timestamp": 5.06838905775076,
+          "last_seen": 10.897036474164134,
+          "type": "vehicle_vehicle",
+          "title": "Va chạm giữa các ô tô",
+          "confidence": 0.9325650334358215,
+          "labels": [
+            "car_car_accident"
+          ]
+        }
+      ],
+      "cached_at": "2026-11-14T18:17:59.838945+00:00",
+      "peak_confidence_by_type": {
+        "vehicle_vehicle": 0.9325650334358215
+      },
+      "ambiguous_frames": 0,
+      "accident_frames_by_threshold": {
+        "0.3": 24,
+        "0.5": 24,
+        "0.7": 24,
+        "0.9": 15
+      }
+    },
+    {
+      "filename": "v6.mov",
+      "sha256": "17efb4719861a730f14d27501eedbec497663961be1fd997c77b4a15b3fc77d5",
+      "frames": 45,
+      "events": [
+        {
+          "id": "3c82cb6e-6db4-44ba-95a4-f86ba91ff011",
+          "timestamp": 1.0131195335276968,
+          "last_seen": 7.85167638483965,
+          "type": "vehicle_vehicle",
+          "title": "Va chạm giữa các ô tô",
+          "confidence": 0.8901194930076599,
+          "labels": [
+            "car_car_accident"
+          ]
+        }
+      ],
+      "cached_at": "2026-11-14T18:18:35.013140+00:00",
+      "peak_confidence_by_type": {
+        "vehicle_vehicle": 0.8901194930076599
+      },
+      "ambiguous_frames": 0,
+      "accident_frames_by_threshold": {
+        "0.3": 28,
+        "0.5": 20,
+        "0.7": 14,
+        "0.9": 0
+      }
+    },
+    {
+      "filename": "v7.mov",
+      "sha256": "7ba8c7837dbb04c3f0e9d81adb6fb88749216fbfd30bc785a318b9ad9127824d",
+      "frames": 69,
+      "events": [
+        {
+          "id": "3fb3560e-e660-43a6-9b14-56179c732434",
+          "timestamp": 3.037536092396535,
+          "last_seen": 5.568816169393648,
+          "type": "vehicle_vehicle",
+          "title": "Va chạm giữa các ô tô",
+          "confidence": 0.9277966022491455,
+          "labels": [
+            "car_car_accident"
+          ]
+        },
+        {
+          "id": "2318fd12-0818-47b5-a69b-9781bb49621b",
+          "timestamp": 6.3282001924927815,
+          "last_seen": 6.3282001924927815,
+          "type": "pedestrian",
+          "title": "Va chạm liên quan đến người đi bộ",
+          "confidence": 0.9628661274909973,
+          "labels": [
+            "car_person_accident"
+          ]
+        },
+        {
+          "id": "d20c3d40-f089-4d31-9d21-7ced7047dce1",
+          "timestamp": 11.643888354186718,
+          "last_seen": 11.897016361886429,
+          "type": "vehicle_vehicle",
+          "title": "Va chạm giữa các ô tô",
+          "confidence": 0.6487450003623962,
+          "labels": [
+            "car_car_accident"
+          ]
+        }
+      ],
+      "cached_at": "2026-11-14T18:19:28.786498+00:00",
+      "peak_confidence_by_type": {
+        "vehicle_vehicle": 0.9277966022491455,
+        "pedestrian": 0.9628661274909973
+      },
+      "ambiguous_frames": 0,
+      "accident_frames_by_threshold": {
+        "0.3": 11,
+        "0.5": 11,
+        "0.7": 7,
+        "0.9": 4
+      }
+    },
+    {
+      "filename": "v8.mov",
+      "sha256": "afe52812345da4715bf0ec044becb33c039b0255d034ac81fdef165aa6f762f8",
+      "frames": 31,
+      "events": [
+        {
+          "id": "3ec2797c-6eed-4aad-b58b-7c6a6c235cb4",
+          "timestamp": 3.821808510638298,
+          "last_seen": 7.643617021276596,
+          "type": "vehicle_vehicle",
+          "title": "Va chạm giữa các ô tô",
+          "confidence": 0.9616881012916565,
+          "labels": [
+            "car_car_accident"
+          ]
+        }
+      ],
+      "cached_at": "2026-11-14T18:19:52.908511+00:00",
+      "peak_confidence_by_type": {
+        "vehicle_vehicle": 0.9616881012916565
+      },
+      "ambiguous_frames": 0,
+      "accident_frames_by_threshold": {
+        "0.3": 16,
+        "0.5": 16,
+        "0.7": 16,
+        "0.9": 16
+      }
+    },
+    {
+      "filename": "v9.mov",
+      "sha256": "7032900a37f7f4a16d0facdad1fbaf5ad51a6e0a711c7115a02337774e114094",
+      "frames": 33,
+      "events": [
+        {
+          "id": "6ef71dbe-a69e-4dbf-a594-0a84451e592e",
+          "timestamp": 4.156736111111111,
+          "last_seen": 7.8244444444444445,
+          "type": "vehicle_vehicle",
+          "title": "Va chạm giữa các ô tô",
+          "confidence": 0.8985633254051208,
+          "labels": [
+            "car_car_accident"
+          ]
+        }
+      ],
+      "cached_at": "2026-11-14T18:20:20.606091+00:00",
+      "peak_confidence_by_type": {
+        "vehicle_vehicle": 0.8985633254051208
+      },
+      "ambiguous_frames": 0,
+      "accident_frames_by_threshold": {
+        "0.3": 17,
+        "0.5": 16,
+        "0.7": 16,
+        "0.9": 0
+      }
+    }
+  ],
+  "accuracy": null,
+  "note": "No ground truth supplied; accuracy and optimal threshold are not measured. Threshold counts use returned API predictions only; detections filtered by the inference server cannot be recovered."
+}
